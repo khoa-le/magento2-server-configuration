@@ -1,22 +1,23 @@
 #!/usr/bin/env bash
 
 apt-get install \
-    php-fpm \
-    php-mysql \
-    php-mcrypt \
-    php-curl \
-    php-cli \
-    php-gd \
+    php7.2-fpm \
+    php7.2-mysql \
+    php7.2-curl \
+    php7.2-mbstring \
+    php7.2-cli \
+    php7.2-gd \
     php7.2-xsl \
-    php-json \
-    php-intl \
+    php7.2-json \
+    php7.2-intl \
     php-pear \
-    php-dev \
-    php-common \
-    php-soap \
-    php-mbstring \
-    php-zip \
+    php7.2-dev \
+    php7.2-common \
+    php7.2-soap \
+    php7.2-mbstring \
+    php7.2-zip \
     php7.2-bcmath \
+    php7.2-redis \
     php-imagick \
     --yes
 
